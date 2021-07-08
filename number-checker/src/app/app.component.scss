@@ -1,0 +1,19 @@
+body{
+    box-sizing:border-box;
+}
+section {
+    display: flex;
+    .first-col {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis:200px;
+    }
+    .second-col {
+        min-width:100px;
+    }
+    .third-col{
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis:300px;
+    }
+}
