@@ -1,8 +1,14 @@
+@media (max-height: 600px) {
+    body {
+        overflow-y: auto;
+    }
+}
 body{
     box-sizing:border-box;
 }
 section {
     display: flex;
+    flex-direction:row;
     .first-col {
         flex-grow: 0;
         flex-shrink: 0;
@@ -10,6 +16,7 @@ section {
     }
     .second-col {
         min-width:100px;
+        flex-basis:100%;
     }
     .third-col{
         flex-grow: 0;
